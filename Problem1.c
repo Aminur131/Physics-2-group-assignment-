@@ -18,7 +18,7 @@ int main()
 
     m=(d*0.000001*sin(theta*3.1416/180))/(lamda*0.000000001);
 
-    printf("Order of maxima(m)= %.2lf\n",m);
+    printf("Order of maxima = %.2lf\n",m);
 
     getchar();
 }
