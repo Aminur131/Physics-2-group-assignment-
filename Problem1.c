@@ -5,13 +5,13 @@ int main()
    double lamda,d,theta;
    double theta_rad,m;
 
-   printf("Enter Wavelength (nanometers):");
+   printf("Enter Wavelength (nanometer):");
    scanf("%lf",&lamda);
 
-   printf("Enter Slit distance d(micrometers):");
+   printf("Enter Slit distance d(micrometer):");
    scanf("%lf",&d);
 
-    printf("Enter Angle theta (degrees):");
+    printf("Enter Angle theta (degree):");
     scanf("%lf",&theta);
 
     theta_rad = theta*3.1416/180;
